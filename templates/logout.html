@@ -1,0 +1,20 @@
+
+{% extends "layout.html" %}
+
+{% block content %}
+
+
+        <!-- insert the page content here -->
+        <h1>Logout</h1>
+        <form method="post" action="/logout">
+    <p>
+    <label for="password">Confirm Logout:</label>
+
+    <p><input type="submit" value="Confirm Logout" name="logout" /></p>
+    <p><input type="submit" value="Do Not Logout" name="doNotLogout" /></p>
+  </form>
+        
+        
+ 
+        
+{% endblock %}

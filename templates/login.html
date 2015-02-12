@@ -15,6 +15,17 @@
     <input type="password" id="password" name="pw" size="40" /></p>
 
     <p><input type="submit" value="login" name="submit" /></p>
+    <p><input type="submit" value="Create Account" name="createAccount" /></p>
+    <p>
+    <label for="zipCode">Zip Code:</label>
+    <input type="zipCode" id="zipCode" name="zipCode" size="40" />
+    Required in order to create an account
+    </p>
+    {% if invalidAccountCreation == "True" %}
+    Invalid Entries for Account Creation
+    {% endif %}
+    </p> 
+
   </form>
         
         

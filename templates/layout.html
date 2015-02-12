@@ -25,6 +25,8 @@
           <li {% if selectedMenu == "Home" %} class="selected" {% endif %}>
           <a href="/">Home</a></li>
           <li {% if selectedMenu == "Login" %} class="selected" {% endif %}><a href="/login">Login</a></li>
+          <li> {% if currentUser != "" %} {{currentUser}}</a> {% endif %} </li>
+          <li{% if selectedMenu == "Logout" %} class="selected" {% endif %}> {% if currentUser != "" %} <a href="logout">Logout</a> {% endif %} </li>
           <li><a href="page.html">A Page</a></li>
           <li><a href="another_page.html">Another Page</a></li>
           <li><a href="contact.html">Contact Us</a></li>
