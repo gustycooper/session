@@ -199,37 +199,6 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   padding: 0 0 4px 25px;
   line-height: 1.5em;}
 
-ul li ul {
-  padding: 0;
-  position: absolute;
-  cursor: pointer; 
-  top: 48px;
-  left: 0;
-  width: 150px;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
-  display: none;
-  opacity: 0;
-  visibility: hidden;
-  -webkit-transiton: opacity 0.2s;
-  -moz-transition: opacity 0.2s;
-  -ms-transition: opacity 0.2s;
-  -o-transition: opacity 0.2s;
-  -transition: opacity 0.2s;
-}
-ul li ul li { 
-  background: #555; 
-  display: block; 
-  color: #fff;
-  text-shadow: 0 -1px 0 #000;
-}
-ul li ul li:hover { background: #666; }
-ul li :hover ul {
-  display: block;
-  opacity: 1;
-  visibility: visible;
-}
 #footer
 { width: 878px;
   font: normal 100% 'lucida sans unicode', arial, sans-serif;
